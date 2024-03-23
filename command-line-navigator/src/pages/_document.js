@@ -1,13 +1,16 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import { Header } from "../components/Header";
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body>
-        <Main />
-        <NextScript />
-      </body>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet"></link>
+      <Main />
+      <NextScript />
+        
     </Html>
   );
 }
