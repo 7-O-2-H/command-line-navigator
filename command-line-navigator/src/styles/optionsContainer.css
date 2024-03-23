@@ -9,3 +9,32 @@
   border-width: 2px;
   background-color: #404040;
 }
+
+.lefts {
+  width: 16%;
+  background-color: #2C2C2C;
+  border-radius: 25px 0 0 25px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.rights {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #646464;
+  width: 100%;
+  border-radius: 0px 25px 0px 0px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  height: 18%;
+}
