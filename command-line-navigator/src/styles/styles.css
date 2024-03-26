@@ -125,3 +125,7 @@ body {
 :focus {
   outline: 0;
 }
+
+.image {
+  width: 50px;
+}

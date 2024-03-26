@@ -1,12 +1,17 @@
-// import Image from "next/image";
-import folder from '../../../docs/images/folder.png'
+import React from 'react';
+// import '../styles/folder.css';
 
-
-export default function Folder() {
+function Folder() {
   return (
-        <div className="folder-image">
-          <img src={folder} alt="folder" />
-        </div> 
-     
+    <div className='option' >
+      <div className='folder-image'>
+        <img src="https://github.com/7-O-2-H/command-line-navigator/blob/main/docs/images/folder.png?raw=true" alt="Folder" />
+      </div>
+      <div className='option-name'>
+        Basics
+      </div>
+    </div>
   );
 }
+
+export default Folder;
