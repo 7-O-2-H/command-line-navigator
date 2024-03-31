@@ -11,7 +11,9 @@ export default function OptionsContainer() {
           </div>
           <div className="rights">
             <TopBar />
-            <Options />
+            <div className="options" >
+              <Options />
+            </div>
           </div>
         </div>   
   );

@@ -1,3 +1,4 @@
-.folder-image {
-  width: 50px;
+#option {
+  display: flex;
+  flex-direction: row;
 }

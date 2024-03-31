@@ -9,8 +9,8 @@
   border-width: 2px;
   background-color: #404040;
   text-decoration:solid;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: black;
+  /* -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black; */
 }
 
 .lefts {
@@ -28,6 +28,24 @@
   flex-direction: column;
 }
 
+.options {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 0 0 5%;
+}
+
+.option {
+  padding: 5%;
+  
+}
+
+.option-name {
+  padding-left: 40%;
+  font-family: "Inconsolata", monospace;
+  color: aliceblue;
+  font-weight: bold;
+}
+
 .top-bar {
   align-items: center;
   display: flex;
@@ -40,9 +58,4 @@
   border-bottom-style: solid;
   border-bottom-width: 2px;
   height: 18%;
-}
-
-
-.image {
-    50px;
 }

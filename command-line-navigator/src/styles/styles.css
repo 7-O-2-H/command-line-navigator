@@ -116,16 +116,12 @@ ul {
 }
 
 /* Set default font family */
-body {
+/* body {
   font-family: Arial, sans-serif;
   line-height: 1;
-}
+} */
 
 /* Remove outline from focused elements */
 :focus {
   outline: 0;
-}
-
-.image {
-  width: 50px;
 }
