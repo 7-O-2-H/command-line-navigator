@@ -1,19 +1,17 @@
 // imports
+import Link from "next/link";
 
 export default function Options() {
   return (
     <div className="options">
-      {/* <Folder />
-      <Folder />
-      <Folder /> */}
-      <div className="option" >
+      <Link className="option" href="/basics" >
         <div className='folder-image'>
           <img src="/images/folder.svg" alt="Folder" style={{ width: '220px', stroke: '#66A6FF'}} />
         </div>
         <div className='option-name'>
           BASICS
         </div>
-      </div>
+      </Link>
       <div className="option" >
         <div className='folder-image'>
         <img src="/images/folder.svg" alt="Folder" style={{ width: '220px'}} />
