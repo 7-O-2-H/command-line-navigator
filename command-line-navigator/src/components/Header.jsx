@@ -1,10 +1,12 @@
-// import Image from "next/image";
-// import "../styles/header.css";
+// imports
+import Link from "next/link";
 
 export default function Header() {
   return (
         <div className="header">
-          <h1>COMMAND LINE NAVIGATOR</h1>
+          <Link href="/" >
+            <h1>COMMAND LINE NAVIGATOR</h1>
+          </Link>
         </div> 
      
   );
