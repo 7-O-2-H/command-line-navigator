@@ -4,3 +4,17 @@
   justify-content: center;
   align-items: center;
 }  
+
+.text-box-one {
+  display: flex; 
+  flex-direction: column;
+  padding-top: 5%;
+  font-family: "Inconsolata", monospace;
+}
+
+.text-box {
+  display: flex; 
+  flex-direction: column;
+  padding-top: 5%;
+  font-family: "Inconsolata", monospace;
+}
