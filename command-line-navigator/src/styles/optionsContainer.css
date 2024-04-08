@@ -1,3 +1,16 @@
+/* ****THHIS WEBKIT CODE WAS IN THE TOP OF OPTIONS-CONTAINER BY DEFAULT
+-webkit-text-stroke-width: 1.5px;
+-webkit-text-stroke-color: black;
+
+*/
+@media screen and (min-width: 600px) {
+  .options {
+    display: flex;
+    flex-direction: row;
+    padding: 5% 0 0 5%;
+  }
+}
+
 .options-container {
   display: flex;
   flex-direction: row;
@@ -6,11 +19,8 @@
   border-radius: 25px;
   border-color: black;
   border-style: solid;
-  border-width: 2px;
   background-color: #404040;
   text-decoration:solid;
-  /* -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: black; */
 }
 
 .lefts {
@@ -28,15 +38,12 @@
   flex-direction: column;
 }
 
-.options {
-  display: flex;
-  flex-direction: row;
-  padding: 5% 0 0 5%;
-}
-
 .option {
   padding: 5%;
-  
+}
+
+.options {
+  height: 100%;
 }
 
 .option-name {
@@ -58,4 +65,4 @@
   border-bottom-style: solid;
   border-bottom-width: 2px;
   height: 18%;
-}
+} 
