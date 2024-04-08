@@ -3,13 +3,13 @@
 -webkit-text-stroke-color: black;
 
 */
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
   .options {
     display: flex;
     flex-direction: row;
     padding: 5% 0 0 5%;
   }
-}
+} */
 
 .options-container {
   display: flex;
