@@ -5,7 +5,7 @@ import Terminal from "../components/Terminal";
 
 export default function Home() {
   return (     
-        <div>
+        <div className="basics">
           <Header />
           <Terminal />
         </div>
