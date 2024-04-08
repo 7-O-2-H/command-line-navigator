@@ -1,0 +1,66 @@
+.terminal-window {
+  width: 800px;
+  height: 600px;
+  background-color: #1e1e1e;
+  border: 1px solid #000;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.title-bar {
+  height: 30px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  color: #fff;
+}
+
+.title-bar-btns {
+  display: flex;
+}
+
+.title-bar-btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.title {
+  margin-left: auto;
+}
+
+.content {
+  height: calc(100% - 30px);
+}
+
+.terminal {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.terminal-header {
+  height: 30px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.terminal-btn {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.terminal-body {
+  padding: 10px;
+  color: #fff;
+}
+
+.terminal-body p:last-child {
+  margin-bottom: 0;
+}
