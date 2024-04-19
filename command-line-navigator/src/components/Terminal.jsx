@@ -16,6 +16,16 @@ export default function Terminal() {
       <div className="content">
         <div className="terminal">
           <div className="terminal-body">
+            <p>terminal@Your_Terminal your-directory % 
+              <br></br>
+              <br></br>
+            </p>
+            <p>
+              &nbsp; &gt; The teriminal (along with other graphical command-line interfaces) is a tool we can use to communicate with modern computers.
+              This application is designed to teach you the basics of using your terminal - particularly how to create, modify and navigate bewtween directories and files - via an interactive approach.
+              <br></br>
+              <br></br>
+            </p>
             <p>terminal@Your_Terminal your-directory % _</p> {/* Placeholder for terminal input */}
           </div>
         </div>
