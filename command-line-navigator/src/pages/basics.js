@@ -11,6 +11,7 @@ export default function Home() {
             <p>This is your terminal.</p>
           </div>
           <Terminal />
+          <p className="text-box">We'll get started by learing some basic commands used for navigating in the command line terminal. Try out the interface by typering something to get started.</p>
         </div>
   );
 }
